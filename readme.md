@@ -9,7 +9,7 @@ XML PHP Extension
 MySql  
 Composer 
 ##Clone repository from Github
-git clone https://github.com/arvyjaar/park.git  
+git clone https://github.com/arvyjaar/mediapark.git  
 'public' directory is your document root. Feel free to rename it to 'public_html' if you need it. 
 ##Run Composer install
 From CLI in your application root run: composer install
