@@ -17,17 +17,6 @@ class Advert extends Model
     protected $fillable = ['title', 'description', 'user_id'];
 
     /**
-     * Date mutator
-     *
-     * @param $value
-     * @return string
-     */
-    public function getCreatedAtAttribute($value)
-    {
-        return substr($value, 0, 10);
-    }
-
-    /**
      * Relationship to User model.
      *
      * @return mixed

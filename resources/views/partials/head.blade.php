@@ -6,7 +6,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Mediapark job assignment') }}</title>
+    <title>{{ config('app.name', 'Mediapark job assignment') }} @yield('title')</title>
 
     <!-- Styles -->
     <!-- Latest compiled and minified CSS -->

@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    - Home
+@endsection
+
 @section('content')
     <div class="container">
         @if(isset($description))
@@ -30,7 +34,7 @@
                         {{ $ad->description }}
                     </div>
                     <div class="col-xs-2">
-                        {{ $ad->created_at }}
+                        {{ $ad->created_at->format('Y-m-d') }}
                     </div>
                     <div class="col-xs-3">
                         {{ $ad->user->name }}
@@ -52,6 +56,5 @@
             </div>
         @else No ads found.
         @endif
-
     </div>
 @endsection

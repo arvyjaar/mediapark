@@ -6,7 +6,7 @@ PDO PHP Extension
 Mbstring PHP Extension  
 Tokenizer PHP Extension  
 XML PHP Extension  
-MySql  
+MySql >=5.6  
 Composer 
 ##Clone repository from Github
 git clone https://github.com/arvyjaar/mediapark.git  
